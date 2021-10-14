@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+ }
+ *:before,
+ *:after {
+  box-sizing: border-box;
+ }
+
+ html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+body{
+  color: gray;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#head{
+  background-color: rgb(219, 213, 213);
+  margin: 0 ;
+  padding-top: 20px;
+}
+
+.logo{
+  font-family: "Roboto Slab", serif;
+   color: rgb(136, 133, 133);
+  margin-top: 10px;
+  padding-top: 12px;
+  padding-left: 0px;
+  height: 2em;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size:20px;
+}
+
+.icon {
+   
+    color:rgb(136, 133, 133);
+    margin-top: 10px ;
+    padding: 10px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px;
+  }
+
+#head a:hover{
+  color: red;
+}
+
+#body{
+  margin: 0;
+  padding-top: 10px;
+  padding-left:20px;
+}
+
+.main-container
+{
+  min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+#footer{
+  background-color: rgb(219, 213, 213);
+  color: rgb(85, 81, 81);
+  /* margin: 0px;
+  padding-top: 20px; */
+  /* display: block; */
+
+  position: absolute; 
+  /* padding: 10px 10px 0px 10px; */
+  bottom: 0;
+  /* width: 100%; */
+ 
+  /* height: 5em; */
+
+}
+
+
+/*photo gallery*/
+/*source - https://epicbootstrap.com/snippets/lightbox-gallery*/
+
+.photo-gallery {
+  color:#313437;
+  background-color:#fff;
+}
+
+.photo-gallery p {
+  color:#7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
